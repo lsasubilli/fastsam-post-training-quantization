@@ -1,0 +1,13 @@
+TRUE STATIC INT8 PTQ BENCHMARK
+FP32 model: /home/ls5255/FastSAM/runs/segment/pupil_retrain/weights/best.onnx
+INT8 model: /home/ls5255/FastSAM/runs/segment/pupil_retrain/weights/best_int8_static.onnx
+FP32 size: 287.2 MB
+INT8 size: 72.6 MB
+
+FP32 ONNX (CPU)                       2311.19 ± 425.23 ms  (0.43 FPS)
+INT8 Static PTQ (CPU)                 1044.93 ± 19.58 ms  (0.96 FPS)
+FP32 ONNX (GPU)                        189.37 ±  1.22 ms  (5.28 FPS)
+INT8 Static PTQ (GPU)                  291.26 ±  1.14 ms  (3.43 FPS)
+
+CPU Speedup: 2.21x
+GPU Speedup: 0.65x
