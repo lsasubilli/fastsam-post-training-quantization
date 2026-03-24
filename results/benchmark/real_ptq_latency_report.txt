@@ -1,0 +1,3 @@
+FP32 PyTorch Model Latency: 132.93 ms ± 1.36 ms
+INT8 ONNX Model Latency: 334.81 ms ± 3.83 ms
+Speedup vs FP32 Baseline: 0.40x

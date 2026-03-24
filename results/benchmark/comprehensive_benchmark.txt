@@ -1,0 +1,10 @@
+COMPREHENSIVE FastSAM INFERENCE BENCHMARK
+GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+Warmup: 10, Runs: 30
+
+Configuration                                  Latency         FPS
+----------------------------------------------------------------------
+  PyTorch FP32 (GPU)                         100.86± 1.8 ms      9.91
+  PyTorch FP16 half (GPU)                    103.10± 5.5 ms      9.70
+  ONNX (GPU ORT)                             255.26±11.0 ms      3.92
+  ONNX (CPU ORT)                            3184.37±710.8 ms      0.31

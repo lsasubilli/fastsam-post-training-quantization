@@ -1,0 +1,6 @@
+# Pupil segmentation dataset for FastSAM retraining
+path: /home/ls5255/FastSAM/dataset_pupil_seg
+train: images/train
+val: images/val
+names:
+  0: pupil
